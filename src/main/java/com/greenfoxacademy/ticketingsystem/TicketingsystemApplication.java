@@ -1,0 +1,14 @@
+package com.greenfoxacademy.ticketingsystem;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class TicketingsystemApplication {
+
+  public static void main(String[] args) {
+    SpringApplication.run(TicketingsystemApplication.class, args);
+  }
+
+}
+//spring.data.rest.detection-strategy=annotated
