@@ -36,12 +36,12 @@ Required Applications
 - JAVA 1.8 enviroment
 - Docker app
 
-- Commands to run the app:
-/gradlew build -> building of .jar file
-- start MySQL container
-docker run --ticketingapp --rm -p 3306:3306 -e MYSQL_ROOT_PASSWORD=123 -e MYSQL_DATABASE=ticketingapp -d mysql 
-- Start application
-java -jar /build/libs/ticketingsystem-0.0.1-SNAPSHOT.jar 
+
+Commands to run the app: 
+/gradlew build -> building of .jar file 
+Start Mysql container -> docker run --ticketingapp --rm -p 3306:3306 -e MYSQL_ROOT_PASSWORD=123 -e MYSQL_DATABASE=ticketingapp -d mysql 
+Start application -> java -jar /build/libs/ticketingsystem-0.0.1-SNAPSHOT.jar 
+
 
 
 ### 7. Technologies
